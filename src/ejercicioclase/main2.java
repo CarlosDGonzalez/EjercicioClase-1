@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -14,11 +17,16 @@ public class main2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner leer=new Scanner (System.in);
         // TODO code application logic here
     
-    int numero=1;
+    int numero;
     int continuar=1;
-    
+    int sino=1;
+    System.out.println("ingrese el numero del mes :");
+            numero=leer.nextInt();
+    for(int i=1;sino==1;i++)
+        { 
     switch (numero)
     { 
     case 1:System.out.println("invierno :");
@@ -48,6 +56,14 @@ public class main2 {
     default: 
         System.out.println("el numero no coresponde a un diadel mes:"); 
   }
+            
+            System.out.println("ingrese 1 para continuar");
+            sino=leer.nextInt();
+            System.out.println("ingrese el numero del mes :");
+            numero=leer.nextInt();
+            
+        }
+    
     
 }
 }
