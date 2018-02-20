@@ -39,7 +39,7 @@ public class main4 {
             segundos=segundos%3600;
             minutos=segundos/60;
             segundos=segundos%60;
-            System.out.println("en :"+segundosIniciales +"segundos hay "+semanas+"semanas "+dias+"dias"+horas+"horas"+minutos +"minutos  "+segundos+"segundos");
+            System.out.println("en :"+segundosIniciales +"segundos hay "+semanas+"  semanas "+dias+" dias "+horas+" horas "+minutos +" minutos  "+segundos+" segundos");
             
             
 }
