@@ -4,10 +4,9 @@
  * and open the template in the editor.
  */
 package ejercicioclase;
-
 /**
- *
- * @author user
+ * Programa realizado para la clase de Programacion II
+ * @author carlosgonzalez
  */
 public class Main {
 
@@ -15,7 +14,26 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        inicioTitulo();
+        
+        System.out.println("Clase V");        
+        System.out.println("Ejercicio 1 En Clase");
+        System.out.println("");
+        
+        int opc;
+        
+        System.out.println("Escoja la opcion del ejercicio que desea realizar.");
+        
+        
+        
     }
-    
+    public static void inicioTitulo(){
+        System.out.println(" ###                               ");
+        System.out.println("  #   #    #  #   ####   #   ####  ");
+        System.out.println("  #   ##   #  #  #    #  #  #    # ");
+        System.out.println("  #   # #  #  #  #       #  #    # ");
+        System.out.println("  #   #  # #  #  #       #  #    # ");
+        System.out.println("  #   #   ##  #  #    #  #  #    # ");
+        System.out.println(" ###  #    #  #   ####   #   ####  ");                             
+    }
 }
