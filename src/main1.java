@@ -18,9 +18,12 @@ public class main1 {
      */
     public static void main(String[] args) {
         int contador=0;
-        float sumaNota=0,nota;        
+        float sumaNota=0F,nota;        
         int sino=1;
+        String nombre;
         Scanner leer=new Scanner (System.in);
+        System.out.println("Escriba el nombre del alumno");
+        nombre=leer.nextLine();
         for(int i=1;sino==1;i++)
         {
             contador++;
@@ -30,10 +33,8 @@ public class main1 {
             System.out.println("ingrese 1 para continuar");
             sino=leer.nextInt();
         }
-        System.out.println("el promedio del estudiante es :"+(sumaNota/contador));
-        
-        
-        
+        System.out.println("El promedio de "+nombre+" es: "+(sumaNota/contador));
+            
     }
     
 }
